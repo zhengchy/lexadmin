@@ -74,7 +74,7 @@ public class AppQuestionController extends BaseController {
         pd.put("question_id", questionId);
         pd.put("create_time", Tools.date2Str(new Date()));
         pd.put("question_state", Const.QUESTION_STATE_INIT);
-
+        String s= null;
         questionService.save(pd);
         Map returnMap = setResultMessage(null, Const.APP_RESULT_CODE_SUCCESS, "成功");
         returnMap.put("question_id", questionId);
