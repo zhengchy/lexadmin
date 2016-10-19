@@ -230,5 +230,38 @@
         where USER_ID=#{USER_ID}
     </update>
     -->
+    <insert id="saveSms" parameterType="pd" flushCache="false">
+        INSERT INTO
+        tb_sendsms
+        (
+        send_code,
+        send_ip,
+        send_phone,
+        send_time,
+        send_status
+        )
+        VALUES
+        (
+        #{CODE},
+        #{send_ip},
+        #{PHONE},
+        #{send_time},
+        #{send_status}
+        );
 
+    </insert>
+
+    <insert id="registerUser" parameterType="pd" flushCache="false">
+        insert into lex_app_user (
+        phone,
+        password,
+        NAME,
+        create_time
+        ) values (
+        #{PHONE},
+        #{PASSWORD},
+        #{NAME},
+        NOW()
+        )
+    </insert>
 </mapper>

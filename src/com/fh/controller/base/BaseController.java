@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.fh.entity.Page;
 
 import java.io.UnsupportedEncodingException;
+import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -115,6 +116,60 @@ public class BaseController {
 		String token  = request.getHeader(Const.APP_TOKEN_STR);
 		return (PageData) Const.APP_SESSION_TOKEN.get(token);
 	}
+	//获取ip
+	public  String getIpAddr() {
+		String ip = getRequest().getHeader("x-forwarded-for");
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = getRequest().getHeader("Proxy-Client-IP");
+		}
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = getRequest().getHeader("WL-Proxy-Client-IP");
+		}
+		if(ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {
+			ip = getRequest().getRemoteAddr();
+			if(ip.equals("127.0.0.1")){
+				//根据网卡取本机配置的IP
+				InetAddress inet=null;
+				try {
+					inet = InetAddress.getLocalHost();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				ip= inet.getHostAddress();
+			}
+		}
+		// 对于通过多个
+		// 代理的情况，第一个IP为客户端真实IP,多个IP按照','分割
+		if(ip != null && ip.length() > 15){
+			if(ip.indexOf(",")>0){
+				ip = ip.substring(0,ip.indexOf(","));
+			}
+		}
+		return ip;
+	}
+
+
+
+	/**
+	 * 返回成功标记
+	 * @return
+	 */
+	protected Object responseSuccess() {
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("msg", "success");
+		return map;
+	}
+
+	/**
+	 * 返回标记
+	 * @return
+	 */
+	protected Object response(String msg) {
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("msg", msg);
+		return map;
+	}
+
 
 	
 }

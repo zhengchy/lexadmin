@@ -102,4 +102,27 @@
 	</delete>
 	
 	<!-- fh313596790qq(青苔) -->
+
+	<!-- 新增文件-->
+	<insert id="saveFile" parameterType="pd">
+		insert  INTO lex_updown (fileUrl, fileName, UpUserId)
+		VALUES
+		(#{fileUrl}, #{fileName},#{UpUserId});
+	</insert>
+
+	<!-- 通过ID获取数据 -->
+	<select id="findFileById" parameterType="pd" resultType="pd">
+		SELECT
+		*
+		FROM
+		lex_updown
+		WHERE
+		fileId = #{fileId}
+	</select>
+
+	<!--获取所有下载文件列表-->
+	<select id="getFileList" resultType="pd">
+		SELECT *
+		FROM  lex_updown
+	</select>
 </mapper>

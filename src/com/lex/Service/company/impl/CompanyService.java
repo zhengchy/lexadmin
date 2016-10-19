@@ -79,6 +79,28 @@ public class CompanyService implements CompanyManager {
 	public void deleteAll(String[] ArrayDATA_IDS)throws Exception{
 		dao.delete("CompanyMapper.deleteAll", ArrayDATA_IDS);
 	}
+
+	/**
+	 * 文件上传信息 保存
+	 * */
+	public void saveFile(String fileName,String Path,int id)throws Exception{
+		PageData pd=new PageData();
+		pd.put("fileName",fileName);
+		pd.put("fileUrl",Path);
+		pd.put("UpUserId",id);
+		dao.save("CompanyMapper.saveFile",pd);
+	}
+
+	public   PageData findFileById(PageData pd)throws  Exception{
+
+		return (PageData)dao.findForObject("CompanyMapper.findFileById",pd);
+	}
+
+
+	public List<PageData> getFileLisst()throws Exception{
+
+		return (List<PageData>)dao.findForList("CompanyMapper.getFileList",null);
+	}
 	
 }
 

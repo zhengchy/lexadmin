@@ -53,6 +53,17 @@ public interface CompanyManager{
 	 * @throws Exception
 	 */
 	public void deleteAll(String[] ArrayDATA_IDS)throws Exception;
+
+
+	/**
+	 * 保存web端文件
+	 * */
+	public void saveFile(String fileName,String Path,int id)throws Exception;
+
+	public   PageData findFileById(PageData pd)throws  Exception;
+
+
+	public List<PageData> getFileLisst()throws Exception;
 	
 }
 
