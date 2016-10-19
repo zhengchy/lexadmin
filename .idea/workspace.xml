@@ -9,7 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/lex/controller/AppQuestionController.java" description="public Object createQuestion(String user_id,String..." line="92" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3934a2-383d-4d66-b26a-d6f83fae9184" name="Default" comment="苗壮修改提交">
+    <list default="true" id="3a3934a2-383d-4d66-b26a-d6f83fae9184" name="Default" comment="苗壮修改提交2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Login.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Login.jsp" />
@@ -181,7 +181,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LexUpDown_webController.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LexUpDown_webController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="215">
@@ -193,11 +193,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FileList.jsp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FileList.jsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -332,7 +332,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/label/label_edit.jsp" />
         <option value="$PROJECT_DIR$/src/com/fh/controller/lex/LabelController.java" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/label/label_list.jsp" />
         <option value="$PROJECT_DIR$/src/com/lex/Service/label/LabelManager.java" />
@@ -383,6 +382,7 @@
         <option value="$PROJECT_DIR$/src/com/lex/Service/company/CompanyManager.java" />
         <option value="$PROJECT_DIR$/src/com/lex/Service/company/impl/CompanyService.java" />
         <option value="$PROJECT_DIR$/src/com/fh/util/Const.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" />
       </list>
     </option>
   </component>
@@ -1498,7 +1498,7 @@
       <workItem from="1474732628016" duration="1242000" />
       <workItem from="1474733976381" duration="1708000" />
       <workItem from="1476281629582" duration="1188000" />
-      <workItem from="1476719646851" duration="8100000" />
+      <workItem from="1476719646851" duration="8452000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1474733241865</created>
@@ -1528,11 +1528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476893740868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="苗壮修改提交2">
+      <created>1476893967275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1476893967276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302052000" />
+    <option name="totallyTimeSpent" value="302404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
@@ -1614,7 +1621,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="首次提交" />
     <MESSAGE value="苗壮修改提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="苗壮修改提交" />
+    <MESSAGE value="苗壮修改提交2" />
+    <option name="LAST_COMMIT_MESSAGE" value="苗壮修改提交2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2241,14 +2249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
@@ -2273,6 +2273,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
