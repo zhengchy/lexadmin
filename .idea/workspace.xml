@@ -181,7 +181,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LexUpDown_webController.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="LexUpDown_webController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="215">
@@ -203,10 +203,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CompanyMapper.xml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CompanyMapper.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
+                <state relative-caret-position="751">
                   <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
                   <folding>
                     <marker date="1476893135000" expanded="true" signature="480:627" placeholder="insert into " />
@@ -1498,7 +1498,7 @@
       <workItem from="1474732628016" duration="1242000" />
       <workItem from="1474733976381" duration="1708000" />
       <workItem from="1476281629582" duration="1188000" />
-      <workItem from="1476719646851" duration="7893000" />
+      <workItem from="1476719646851" duration="8100000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1474733241865</created>
@@ -1521,11 +1521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476893379615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="苗壮修改提交">
+      <created>1476893740868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1476893740868</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301845000" />
+    <option name="totallyTimeSpent" value="302052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
@@ -2234,16 +2241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2254,7 +2251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="751">
           <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
           <folding>
             <marker date="1476893135000" expanded="true" signature="480:627" placeholder="insert into " />
@@ -2265,6 +2262,16 @@
             <marker date="1476893135000" expanded="true" signature="2331:2433" placeholder="insert INTO lex_updown" />
             <marker date="1476893135000" expanded="true" signature="2531:2590" placeholder="SELECT * FRO... lex_updown" />
             <marker date="1476893135000" expanded="true" signature="2667:2694" placeholder="SELECT * FRO... lex_updown" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
