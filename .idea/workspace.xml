@@ -9,23 +9,17 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/lex/controller/AppQuestionController.java" description="public Object createQuestion(String user_id,String..." line="92" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a3934a2-383d-4d66-b26a-d6f83fae9184" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/LoginSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/t.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lex/Service/user/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lex/Service/user/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lex/controller/web/LexUser_webController.java" />
+    <list default="true" id="3a3934a2-383d-4d66-b26a-d6f83fae9184" name="Default" comment="苗壮修改提交">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml" afterPath="$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/mybatis1/lex/LexUserMapper.xml" afterPath="$PROJECT_DIR$/resources/mybatis1/lex/LexUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fh/controller/base/BaseController.java" afterPath="$PROJECT_DIR$/src/com/fh/controller/base/BaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fh/util/Const.java" afterPath="$PROJECT_DIR$/src/com/fh/util/Const.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/Service/company/CompanyManager.java" afterPath="$PROJECT_DIR$/src/com/lex/Service/company/CompanyManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/Service/company/impl/CompanyService.java" afterPath="$PROJECT_DIR$/src/com/lex/Service/company/impl/CompanyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Login.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/LoginSuccess.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/LoginSuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Register.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/Register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/t.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/t.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/Service/user/UserService.java" afterPath="$PROJECT_DIR$/src/com/lex/Service/user/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/Service/user/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/lex/Service/user/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java" afterPath="$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lex/controller/web/LexUser_webController.java" afterPath="$PROJECT_DIR$/src/com/lex/controller/web/LexUser_webController.java" />
     </list>
     <ignored path="FHADMINM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,10 +193,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CompanyMapper.xml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="FileList.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CompanyMapper.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="634">
+                <state relative-caret-position="504">
                   <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
                   <folding>
                     <marker date="1476893135000" expanded="true" signature="480:627" placeholder="insert into " />
@@ -238,7 +242,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Const.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/fh/util/Const.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="510">
@@ -1494,7 +1498,7 @@
       <workItem from="1474732628016" duration="1242000" />
       <workItem from="1474733976381" duration="1708000" />
       <workItem from="1476281629582" duration="1188000" />
-      <workItem from="1476719646851" duration="7463000" />
+      <workItem from="1476719646851" duration="7893000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1474733241865</created>
@@ -1510,11 +1514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474734594896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="苗壮修改提交">
+      <created>1476893379615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1476893379615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301415000" />
+    <option name="totallyTimeSpent" value="301845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
@@ -1595,7 +1606,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+    <MESSAGE value="苗壮修改提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="苗壮修改提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1769,14 +1781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lex/controller/AppCompanyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fh/util/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2196,38 +2200,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
-          <folding>
-            <marker date="1476893135000" expanded="true" signature="480:627" placeholder="insert into " />
-            <marker date="1476893135000" expanded="true" signature="696:786" placeholder="delete from " />
-            <marker date="1476893135000" expanded="true" signature="854:1035" placeholder="update set c... " />
-            <marker date="1476893135000" expanded="true" signature="1129:1259" placeholder="select from where" />
-            <marker date="1476893135000" expanded="true" signature="1855:1904" placeholder="select from... " />
-            <marker date="1476893135000" expanded="true" signature="2331:2433" placeholder="insert INTO lex_updown" />
-            <marker date="1476893135000" expanded="true" signature="2531:2590" placeholder="SELECT * FRO... lex_updown" />
-            <marker date="1476893135000" expanded="true" signature="2667:2694" placeholder="SELECT * FRO... lex_updown" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lex/Service/company/impl/CompanyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
           <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2254,6 +2231,41 @@
         <state relative-caret-position="510">
           <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lex/controller/web/LexUpDown_webController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/lex/web/FileList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/mybatis1/lex/CompanyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+          <folding>
+            <marker date="1476893135000" expanded="true" signature="480:627" placeholder="insert into " />
+            <marker date="1476893135000" expanded="true" signature="696:786" placeholder="delete from " />
+            <marker date="1476893135000" expanded="true" signature="854:1035" placeholder="update set c... " />
+            <marker date="1476893135000" expanded="true" signature="1129:1259" placeholder="select from where" />
+            <marker date="1476893135000" expanded="true" signature="1855:1904" placeholder="select from... " />
+            <marker date="1476893135000" expanded="true" signature="2331:2433" placeholder="insert INTO lex_updown" />
+            <marker date="1476893135000" expanded="true" signature="2531:2590" placeholder="SELECT * FRO... lex_updown" />
+            <marker date="1476893135000" expanded="true" signature="2667:2694" placeholder="SELECT * FRO... lex_updown" />
+          </folding>
         </state>
       </provider>
     </entry>
